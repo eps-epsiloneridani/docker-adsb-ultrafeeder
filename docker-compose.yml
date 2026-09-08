@@ -38,28 +38,28 @@ services:
       #       - remove "adsb,dump978,30978,uat_in;" if you don't have dump978 and a UAT dongle connected to your station
       #       - !!! make sure that each line ends with a semicolon ";",  with the exception of the last line which shouldn't have a ";" !!!
       - ULTRAFEEDER_CONFIG=
-        adsb,dump978,30978,uat_in;
-        adsb,feed.adsb.fi,30004,beast_reduce_plus_out;
-        adsb,in.adsb.lol,30004,beast_reduce_plus_out;
-        adsb,feed.airplanes.live,30004,beast_reduce_plus_out;
-        adsb,feed.planespotters.net,30004,beast_reduce_plus_out;
-        adsb,feed.theairtraffic.com,30004,beast_reduce_plus_out;
-        adsb,data.avdelphi.com,24999,beast_reduce_plus_out;
-        adsb,skyfeed.hpradar.com,30004,beast_reduce_plus_out;
-        adsb,dati.flyitalyadsb.com,4905,beast_reduce_plus_out;
-        adsb,feed1.adsbexchange.com,30004,beast_reduce_plus_out;
-        mlat,feed.adsb.fi,31090;
-        mlat,in.adsb.lol,31090;
-        mlat,feed.airplanes.live,31090;
-        mlat,mlat.planespotters.net,31090;
-        mlat,feed.theairtraffic.com,31090;
-        mlat,mlatfeed.hpradar.com,31090;
-        mlat,dati.flyitalyadsb.com,30100;
-        mlat,feed.adsbexchange.com,31090,39008,uuid=${ADSBX_UUID}
+      #  adsb,dump978,30978,uat_in;
+       # adsb,feed.adsb.fi,30004,beast_reduce_plus_out;
+        #adsb,in.adsb.lol,30004,beast_reduce_plus_out;
+       # adsb,feed.airplanes.live,30004,beast_reduce_plus_out;
+       # adsb,feed.planespotters.net,30004,beast_reduce_plus_out;
+       # adsb,feed.theairtraffic.com,30004,beast_reduce_plus_out;
+       # adsb,data.avdelphi.com,24999,beast_reduce_plus_out;
+       # adsb,skyfeed.hpradar.com,30004,beast_reduce_plus_out;
+       # adsb,dati.flyitalyadsb.com,4905,beast_reduce_plus_out;
+       # adsb,feed1.adsbexchange.com,30004,beast_reduce_plus_out;
+       # mlat,feed.adsb.fi,31090;
+       # mlat,in.adsb.lol,31090;
+       # mlat,feed.airplanes.live,31090;
+       # mlat,mlat.planespotters.net,31090;
+       # mlat,feed.theairtraffic.com,31090;
+       # mlat,mlatfeed.hpradar.com,31090;
+       # mlat,dati.flyitalyadsb.com,30100;
+       # mlat,feed.adsbexchange.com,31090,39008,uuid=${ADSBX_UUID}
       #
       # --------------------------------------------------
-      - UUID=${MULTIFEEDER_UUID}
-      - MLAT_USER=${FEEDER_NAME}
+     # - UUID=${MULTIFEEDER_UUID}
+     # - MLAT_USER=${FEEDER_NAME}
       #
       # --------------------------------------------------
       # TAR1090 (Map Web Page) parameters:
