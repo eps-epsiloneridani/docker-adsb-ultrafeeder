@@ -10,7 +10,7 @@ services:
     device_cgroup_rules:
       - "c 189:* rwm"
     ports:
-      - 8080:80 # to expose the web interface
+      - 7080:80 # to expose the web interface
       - 9273-9274:9273-9274 # to expose the statistics interface to Prometheus
     environment:
       # --------------------------------------------------
